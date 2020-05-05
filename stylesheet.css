@@ -20,63 +20,103 @@ img {
     height: auto;
 }
 
-.grid{
-    display: grid;
+footer {
+    padding-top: 15px;
+}
+
+#name{
+    font-family: 'Pacifico', cursive;
+    font-weight: 200;
+}
+
+.work{
+    border-top: white solid 3px;
 }
 
 @media (min-width: 320px) /*mobile*/{
+
+    .work{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     h1{
-    
         font-weight: 600;
         font-size: 18pt;
         margin: 0;
-        padding: 0;
+        padding-top: 22px;
     }
     
     h2{
         font-weight: 400;
-        font-size: 14pt;
+        font-size: 18pt;
         margin: 0;
         padding: 0;
     }
     
     h3{
         font-weight: 400;
-        font-size: 12pt;
+        font-size: 15pt;
         margin: 0;
-        padding: 0;
+        padding: 10px;
     }
     
     p{
         font-weight: 300;
-        font-size: 10pt;
+        font-size: 12pt;
     }
+    #last {
+        border-bottom: white solid 3px;
+    }
+
 }
 
 @media (min-width: 600px) /*tablet*/{
+
+    .work{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
     h1{
     
         font-weight: 600;
-        font-size: 18pt;
+        font-size: 24pt;
     }
     
     h2{
         font-weight: 400;
-        font-size: 14pt;
+        font-size: 20pt;
     }
     
     h3{
         font-weight: 400;
-        font-size: 12pt;
+        font-size: 17pt;
     }
     
     p{
         font-weight: 300;
-        font-size: 10pt;
+        font-size: 14pt;
+    }
+
+    #last {
+        border-bottom: white solid 3px;
     }
 }
 
 @media (min-width: 801px) /*laptop*/{
+    .grid{
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template: auto / auto auto;
+    }
+    
+    .work{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     h1{
     
         font-weight: 600;
@@ -90,16 +130,33 @@ img {
     
     h3{
         font-weight: 400;
-        font-size: 18pt;
+        font-size: 20pt;
     }
     
     p{
         font-weight: 300;
         font-size: 14pt;
+    }
+
+    #last,
+    #nextlast {
+        border-bottom: white solid 3px;
     }
 }
 
 @media (min-width: 1025px) /*desktop*/{
+    .grid{
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template: auto / auto auto;
+    }
+    
+    .work{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     h1{
     
         font-weight: 600;
@@ -113,11 +170,16 @@ img {
     
     h3{
         font-weight: 400;
-        font-size: 18pt;
+        font-size: 20pt;
     }
     
     p{
         font-weight: 300;
         font-size: 14pt;
+    }
+
+    #last,
+    #nextlast {
+        border-bottom: white solid 3px;
     }
 }
