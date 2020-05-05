@@ -14,26 +14,6 @@ a:hover {
     text-decoration: underline;  
 }
 
-h1{
-    
-    font-weight: 600;
-    font-size: 18pt;
-}
-
-h2{
-    font-weight: 400;
-    font-size: 14pt;
-}
-
-h3{
-    font-weight: 400;
-    font-size: 12pt;
-}
-
-p{
-    font-weight: 300;
-    font-size: 10pt;
-}
 
 img {
     max-width: 100%;
@@ -41,17 +21,93 @@ img {
 }
 
 @media (min-width: 320px) /*mobile*/{
+    h1{
     
+        font-weight: 600;
+        font-size: 18pt;
+    }
+    
+    h2{
+        font-weight: 400;
+        font-size: 14pt;
+    }
+    
+    h3{
+        font-weight: 400;
+        font-size: 12pt;
+    }
+    
+    p{
+        font-weight: 300;
+        font-size: 10pt;
+    }
 }
 
 @media (min-width: 600px) /*tablet*/{
-
+    h1{
+    
+        font-weight: 600;
+        font-size: 18pt;
+    }
+    
+    h2{
+        font-weight: 400;
+        font-size: 14pt;
+    }
+    
+    h3{
+        font-weight: 400;
+        font-size: 12pt;
+    }
+    
+    p{
+        font-weight: 300;
+        font-size: 10pt;
+    }
 }
 
 @media (min-width: 801px) /*laptop*/{
-
+    h1{
+    
+        font-weight: 600;
+        font-size: 32pt;
+    }
+    
+    h2{
+        font-weight: 400;
+        font-size: 26pt;
+    }
+    
+    h3{
+        font-weight: 400;
+        font-size: 18pt;
+    }
+    
+    p{
+        font-weight: 300;
+        font-size: 14pt;
+    }
 }
 
 @media (min-width: 1025px) /*desktop*/{
-
+    h1{
+    
+        font-weight: 600;
+        font-size: 32pt;
+    }
+    
+    h2{
+        font-weight: 400;
+        font-size: 26pt;
+    }
+    
+    h3{
+        font-weight: 400;
+        font-size: 18pt;
+    }
+    
+    p{
+        font-weight: 300;
+        font-size: 14pt;
+    }
 }
