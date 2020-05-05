@@ -4,6 +4,15 @@ html{
     text-align: center;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;  
+}
+
 h1{
     font-family: 'Jost', sans-serif;
     font-weight: 600;
@@ -17,6 +26,11 @@ h2{
 img {
     max-width: 100%;
     height: auto;
+    display: none;
+}
+
+img:hover {
+    display: block;
 }
 
 @media (min-width: 320px) /*mobile*/{
