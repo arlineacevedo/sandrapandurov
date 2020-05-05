@@ -1,10 +1,12 @@
 html{
-    background-color: #f0d9ff;
+    background-color: #8cc1fa;
 }
 
 h1{
     font-family: 'Jost', sans-serif;
     font-weight: 600;
+    align-content: center;
+    background-color: white;
 }
 
 h2{
