@@ -10,10 +10,24 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.intro p a:hover {
     text-decoration: underline;  
 }
 
+.intro p {
+    padding: 0px;  
+    margin: 0px;
+}
+
+.intro h2 {
+    padding: 0px;  
+    margin: 20px 0px 0px 0px;
+}
+
+#lastintro {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
 
 img {
     max-width: 100%;
