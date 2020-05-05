@@ -2,11 +2,14 @@ html{
     background-color: #8cc1fa;
 }
 
+.intro {
+    background-color: white;
+}
+
 h1{
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    align-content: center;
-    background-color: white;
+    text-align: center;
 }
 
 h2{
