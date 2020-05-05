@@ -26,11 +26,6 @@ h2{
 img {
     max-width: 100%;
     height: auto;
-    display: none;
-}
-
-img:hover {
-    display: block;
 }
 
 @media (min-width: 320px) /*mobile*/{
