@@ -9,8 +9,8 @@ h2{
 }
 
 img {
-    max-height: 50%;
-    width: auto;
+    height: auto;
+    max-width: 50%;
 }
 
 @media (min-width: 320px) /*mobile*/{
