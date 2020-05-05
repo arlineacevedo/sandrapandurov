@@ -20,6 +20,10 @@ img {
     height: auto;
 }
 
+.grid{
+    display: grid;
+}
+
 @media (min-width: 320px) /*mobile*/{
     h1{
     
