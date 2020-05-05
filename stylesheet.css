@@ -33,7 +33,7 @@ footer {
     border-top: white solid 3px;
 }
 
-@media (min-width: 320px) /*mobile*/{
+@media (min-width: 100px) /*mobile*/{
 
     .work{
         padding-top: 10px;
