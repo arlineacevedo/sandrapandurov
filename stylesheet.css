@@ -3,9 +3,14 @@ h1{
     font-weight: 600;
 }
 
+h2{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+
 img {
-    max-width: 80%;
-    height: auto;
+    max-height: 50%;
+    width: auto;
 }
 
 @media (min-width: 320px) /*mobile*/{
